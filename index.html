@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/banner.css" />
+<title>Patapsco</title>
+
+<script type="text/javascript" src="./javascript/jquery-1.7.1.min.js"></script>
+<script type="text/javascript"> 
+    var $j = jQuery.noConflict(); 
+    $j(document).ready(function(){
+
+        // ================== ATTENTION ===================== //
+        // dont forget to run setupBanner in your global.js
+        // ================================================== //
+        setupBanner(); // <<<--------------------------------
+        // ================================================== //
+        
+    }); 
+</script>
+<script type="text/javascript" src="./javascript/jsbanner.js"></script>
+<script type="text/javascript" src="./javascript/bannerSlides.js"></script>
+</head>
+<body>
+
+<!-- tal file cut here -->
+
+<!-- <metal:block define-macro="custom"> -->
+    
+<div id="banner">
+    <div id="bannerPreloader" class="hide"> 
+        <img src="./image/banner/130.gif" alt="banner preloader" width="25" height="25" /> 
+    </div>
+
+    <div id="bannerSlides">
+
+        <div class="slide hide nthChild-1" >
+            <div class='slideContent'>               
+                <div class="picture" data-bg="./image/banner/mortgageLoan1.png"></div>
+                <div class="slideCopy">
+                    <h3>Mortgage Loans</h3>
+                    <p>We offer competitive rates, flexible terms, and the friendly guidance of local experts.</p>
+                </div>
+                <a href="" class="learnMore" title="Learn More">Learn More</a>
+            </div>
+        </div>
+
+        <div class="slide hide nthChild-2">
+            <div class='slideContent'>            
+                <div class="picture" data-bg="./image/banner/kasasa1.png"></div>
+                <div class="slideCopy">
+                    <h3>Kasasa (Coming Soon)</h3>
+                    <p>Are you ready for free accounts and services that benefit you the most?</p>
+                </div>
+                <a href="" class="learnMore" title="Learn More">Learn More</a>
+            </div>
+        </div>
+
+        <div class="slide hide nthChild-3">
+            <div class='slideContent'>                
+                <div class="picture" data-bg="./image/banner/moneyPass1.png"></div>
+                <div class="slideCopy">
+                    <h3>MoneyPass Facebook Sweepstakes!</h3>
+                    <p class='twoLineTitle'>Enter to win $5000 through Facebook, from November 8 through December 31!</p>
+                </div>
+                <a href="" class="learnMore" title="Learn More">Learn More</a>
+            </div>
+        </div>                
+
+    </div>
+    
+    <div id="bannerNavigation" class="hide">
+        <div class="button navigate active"><p>Mortgage Loans</p></div>
+        <div class="button navigate"><p>Kasasa</p></div>
+        <div class="button navigate"><p>MoneyPass Sweepstakes</p></div>
+    </div>
+
+    <div id="bannerNavHiLite"><div>
+
+</div>
+
+<!-- </metal:block> -->
+
+<!-- cut here -->
+
+</body>
+</html>
